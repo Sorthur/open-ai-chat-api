@@ -29,4 +29,8 @@ public class WeatherForecastController : ControllerBase
             })
             .ToArray();
     }
+
+    [HttpGet("/test")]
+    public IActionResult Test()
+        => Ok("hello world");
 }
