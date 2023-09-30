@@ -5,10 +5,15 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>open_ai_chat_api</RootNamespace>
+        <UserSecretsId>d543919a-ce2a-487b-90f8-f0fba785a116</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\open-ai-chat-infrastructure\open-ai-chat-infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
