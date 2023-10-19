@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-ai-chat-infrastructure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-ai-chat-domain", "open-ai-chat-domain\open-ai-chat-domain.csproj", "{CA1AF36A-9217-4BE7-9F12-FCC1AC2F4DF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-ai-chat-tools", "open-ai-chat-tools\open-ai-chat-tools.csproj", "{5E2CEA32-6FAD-45C7-85DC-4B6549168970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CA1AF36A-9217-4BE7-9F12-FCC1AC2F4DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1AF36A-9217-4BE7-9F12-FCC1AC2F4DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1AF36A-9217-4BE7-9F12-FCC1AC2F4DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2CEA32-6FAD-45C7-85DC-4B6549168970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2CEA32-6FAD-45C7-85DC-4B6549168970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2CEA32-6FAD-45C7-85DC-4B6549168970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2CEA32-6FAD-45C7-85DC-4B6549168970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
