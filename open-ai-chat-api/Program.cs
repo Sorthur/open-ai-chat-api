@@ -1,4 +1,5 @@
 using open_ai_chat_infrastructure;
+using open_ai_chat_tools;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHealthChecks()
+    .AddHealthCheck<DbHealthCheck>();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -25,5 +28,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseHealthChecks();
 
 app.Run();

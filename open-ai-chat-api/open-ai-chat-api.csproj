@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\open-ai-chat-infrastructure\open-ai-chat-infrastructure.csproj" />
+      <ProjectReference Include="..\open-ai-chat-tools\open-ai-chat-tools.csproj" />
     </ItemGroup>
 
 </Project>
